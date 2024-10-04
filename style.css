@@ -1,17 +1,36 @@
 .col > div {
-  margin-left: 10px; /* Add margin-left to create space between logos and names */
+  margin-left: 10px; 
 }
 
 .contact-info a {
   margin: 0 10px;
-  color: #ffffff; /* Change to your preferred color */
+  color: #ffffff;
 }
 
 .contact-info i {
-  font-size: 24px; /* Adjust size */
+  font-size: 24px;
   transition: color 0.3s;
 }
 
 .contact-info a:hover i {
-  color: #00bcd4; /* Change to the color you want on hover */
+  color: #00bcd4;
+}
+
+.scroll-to-contact {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 1000;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.scroll-to-contact button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: #008080;
+}
+
+.scroll-to-contact:hover {
+  background-color: #007B7A;
 }
